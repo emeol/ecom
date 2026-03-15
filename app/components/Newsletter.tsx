@@ -1,5 +1,5 @@
-import newsletter from "../public/newsletter.png";
 import Image from "next/image";
+import newsletter from "../assets/newsletter.png";
 
 export const Newsletter = () => {
   return (
