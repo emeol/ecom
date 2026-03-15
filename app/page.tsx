@@ -1,10 +1,11 @@
-import Link from "next/link";
+import { DemoBanner } from "./components/DemoBanner";
 import { PerfectBanner } from "./components/PerfectBanner";
 import { Newsletter } from "./components/Newsletter";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
+      <DemoBanner />
 
       <section id="perfect" className="mx-auto w-full max-w-6xl px-6 py-6 md:py-10">
         <PerfectBanner />
