@@ -14,7 +14,7 @@ export const products: Product[] = [
     {
         _id: "1",
         price: "$19.99",
-        image: "./assets/cake1.jpg",
+        image: "/images/cake1.png",
         name: "Product 1",
         slug: "product-1",
         details: "Details about Product 1",
@@ -25,7 +25,7 @@ export const products: Product[] = [
     {
         _id: "2",
         price: "$29.99",
-        image: "./assets/cake2.jpg",
+        image: "/images/cake2.png",
         name: "Product 2",
         slug: "product-2",
         details: "Details about Product 2",
@@ -36,7 +36,7 @@ export const products: Product[] = [
     {
         _id: "3",
         price: "$39.99",
-        image: "./assets/cake3.jpg",
+        image: "/images/cake3.png",
         name: "Product 3",
         slug: "product-3",
         details: "Details about Product 3",
@@ -46,7 +46,7 @@ export const products: Product[] = [
     }, {
         _id: "4",
         price: "$49.99",
-        image: "./assets/cake4.jpg",
+        image: "/images/cake4.png",
         name: "Product 4",
         slug: "product-4",
         details: "Details about Product 4",
@@ -57,7 +57,7 @@ export const products: Product[] = [
     {
         _id: "5",
         price: "$59.99",
-        image: "./assets/cake5.jpg",
+        image: "/images/cake5.png",
         name: "Product 5",
         slug: "product-5",
         details: "Details about Product 5",
