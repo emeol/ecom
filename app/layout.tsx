@@ -16,15 +16,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="min-h-screen">
         <Providers>
+          <div className="flex min-h-screen flex-col">
           <header>
             <NavBar />
           </header>
-          <main>{children}</main>
-          <footer>
+          <main className="flex-1">{children}</main>
+          <footer className="mt-auto border-t border-black/10 bg-white">
             <Footer />
           </footer>
+          </div>
         </Providers>
       </body>
     </html>
