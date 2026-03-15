@@ -19,7 +19,7 @@ export const Product = ({ slug, image, name, price }: ProductCardProps) => {
 
     return (
         <div className="group h-full">
-            <Link href={`/product/${slugValue}`} className="block h-full">
+            <Link href={`/shop/product/${slugValue}`} className="block h-full">
                 <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-sm transition duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
                     <div className="aspect-square overflow-hidden bg-black/5">
                         <img
